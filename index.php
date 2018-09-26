@@ -22,6 +22,14 @@ if($method == 'POST'){
 			$speech = "Yes, you can type anything here.";
 			break;
 		
+		case 'product':
+			$speech = "Keyboard, mouse, speaker, monitor and graphic card.";
+			break;
+			
+		case 'order':
+			$speech = "Please state your order here.";
+			break;
+		
 		default:
 			$speech = "Sorry, I didnt get that. Please ask me something else.";
 			break;
